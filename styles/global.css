@@ -1,0 +1,19 @@
+/*Resent nas conf dos navegadores para aceitar apenas os meus comados*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Aqui vai ser a cores usadas*/
+
+:root{
+    --bg-color:#000000;
+    --txt-color:#ffff;
+}
+
+
+body{
+    background-color: var(--bg-color);
+    color: var(--txt-color);
+}
