@@ -22,6 +22,6 @@ body{
 }
 
 a{
-    text-decoration: none; /*tira a recoração*/
+    text-decoration: none; /*tira a decoração*/
     color: inherit; /*faz com que ele receba a color do elemento pai*/
 }

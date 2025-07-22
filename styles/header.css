@@ -3,12 +3,12 @@ nav{
     justify-content: center;
     align-items: center;
     margin: 1rem;
-    padding: 1rem;
-    
+    padding: 0.4rem;
+    border: 1px solid red;
 
     & a{
         cursor: pointer;
-        margin: .3125rem;
+        margin: 2px 4px 2px 2px;
         padding: .0625rem;
 
         &:hover{
@@ -26,8 +26,7 @@ nav{
 
 
 
-
-
+            /*RESPONSIVIDADE DO SITE*/
 
 /*mobile*/
 @media (min-width: 37.5rem) {
