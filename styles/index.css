@@ -1,4 +1,5 @@
-/*AQUI VAI SER SÓ O LOCAL PARA CHAMAR AS OUTRAS PAGINAS*/
+/*AQUI VAI SER SÓ O LOCAL PARA CHAMAR O CSS DAS OUTRAS PAGINAS*/
 
 @import url(global.css);
 @import url(header.css);
+@import url(main.css);
