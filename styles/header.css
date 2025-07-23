@@ -4,11 +4,11 @@ nav{
     align-items: center;
     margin: 1rem;
     padding: 0.4rem;
-    border: 1px solid red;
-
+    border-radius: 3.125rem;
+    background-color: var(--bg-color-nav);
     & a{
         cursor: pointer;
-        margin: 2px 4px 2px 2px;
+        margin: 0.125rem 0.25rem 0.125rem 0.125rem;
         padding: .0625rem;
 
         &:hover{
@@ -28,13 +28,15 @@ nav{
 
             /*RESPONSIVIDADE DO SITE*/
 
+
+
 /*mobile*/
 @media (min-width: 37.5rem) {
     nav{
         justify-content: space-between;
         font-size: 1.25rem;
         & a{
-            margin: .3125rem;
+            margin: 0.125rem 0.35rem 0.125rem 0.2rem;
             padding: .375rem;
         }
     }
