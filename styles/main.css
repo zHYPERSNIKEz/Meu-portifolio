@@ -1,3 +1,46 @@
 main{
-    border: 1px solid red;
+    margin: 1rem;
+}
+#sobre{
+    display: flex;
+    flex-direction: column;
+
+    
+    .inicial{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 16px;
+        gap: 5rem;
+
+        & h1{
+            font-size: 30px;
+            max-width: 20rem;
+            max-height: 1rem;
+            text-align: center;
+        }
+        & img{
+            width: 10rem;
+            object-fit: cover;
+            border-radius: 1.25rem;
+            border: 2px solid rgb(112, 248, 0);
+
+        }
+    }
+
+    article{
+        h2{
+            max-width: 210px;
+            border-radius: 15px;
+            text-align: center;
+            background-color: var(--bg-color-hover);
+        }
+
+        h3{
+            background-color: var(--bg-color-nav);
+            max-width: 500px;
+            padding: 10px;
+            border-radius: 25px;
+        }
+    }
 }

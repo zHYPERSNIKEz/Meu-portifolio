@@ -10,6 +10,7 @@ nav{
         cursor: pointer;
         margin: 0.125rem 0.25rem 0.125rem 0.125rem;
         padding: .0625rem;
+        
 
         &:hover{
             background-color: var(--bg-color-hover);
