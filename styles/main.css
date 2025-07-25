@@ -3,44 +3,59 @@ main{
 }
 #sobre{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     
     .inicial{
-        display: flex;
-        justify-content: center;
-        align-items: center;
         margin: 16px;
         gap: 5rem;
 
         & h1{
-            font-size: 30px;
+            font-size: 1.875rem;
             max-width: 20rem;
             max-height: 1rem;
             text-align: center;
         }
+        
+    }
+
+    article{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
         & img{
             width: 10rem;
             object-fit: cover;
             border-radius: 1.25rem;
             border: 2px solid rgb(112, 248, 0);
+            
 
         }
-    }
 
-    article{
-        h2{
-            max-width: 100%;
-            border-radius: 15px;
-            text-align: center;
-            background-color: var(--bg-color-hover);
+        .informacoes{
+            max-width: 300px;
+            margin: 1rem;
+            & h2{
+                max-width: 100%;
+                padding: 20px;
+                border-radius: .9375rem;
+                text-align: center;
+                background-color: var(--bg-color-hover);
+            }
+    
+            & h3{
+                background-color: var(--bg-color-nav);
+                max-width: 100%;
+                padding: 10px;
+                border-radius: 25px;
+            }
         }
-
-        h3{
-            background-color: var(--bg-color-nav);
-            max-width: 100%;
-            padding: 10px;
-            border-radius: 25px;
-        }
+       
     }
 }
+
+
+
+/*RESPONSIVIDADE*/
