@@ -59,3 +59,14 @@ main{
 
 
 /*RESPONSIVIDADE*/
+
+/*mobile*/
+@media (max-width: 600px){
+    #sobre{
+        display: grid;
+    }
+
+    article>img{
+        width: 5rem;
+    }
+}

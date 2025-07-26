@@ -2,8 +2,9 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin: 1rem;
-    padding: 0.4rem;
+    padding: 0.8rem;
     border-radius: 3.125rem;
     background-color: var(--bg-color-nav);
     & a{
@@ -32,7 +33,7 @@ nav{
 
 
 /*mobile*/
-@media (min-width: 37.5rem) {
+@media (max-width: 600px) {
     nav{
         justify-content: space-between;
         font-size: 1.25rem;
